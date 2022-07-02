@@ -1,0 +1,29 @@
+/* Style container component */
+.App {
+  margin: 10px;
+  border: 4px solid black;
+}
+
+.nav-bar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid green;
+  justify-content: center;
+}
+
+.nav-menu {
+  list-style: none;
+  width:60vw;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+  justify-content: center;
+  gap: 1vw;
+  font-size: x-large;
+}
+
+.nav-menu-item {
+  border: 2px solid red;
+  cursor: pointer;
+}
