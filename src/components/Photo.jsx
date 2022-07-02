@@ -1,11 +1,14 @@
 import React from "react";
 import '../styles/Photo.css';
 
-const Photo = () => {
-  console.log('Photo Render')
+const Photo = ({photo}) => {
+
+  console.log();
+  const imgSrc = `../assets/media/photos/${photo}`;
+
   return (
     <div className="main-div">
-      <h1>Photo</h1>
+      <img src={imgSrc}/>
     </div>
   )
 };
