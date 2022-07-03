@@ -3,11 +3,13 @@ import './styles/App.css';
 import Home from './components/Home';
 import Photos from './components/Photos';
 import Projects from './components/Projects';
+
+import projects from './json/projects.json';
 import photos from './json/photos.json';
 
 const App = () => {
 
-  const [page, setPage] = useState('Photos');
+  const [page, setPage] = useState('Projects');
 
   const pageHandler = (page) => {
     console.log('viewing ', page)
@@ -30,7 +32,7 @@ const App = () => {
       currentPage = <Photos photoData={photos}/>;
       break;
     case 'Projects':
-      currentPage = <Projects />;
+      currentPage = <Projects projectData={projects}/>;
       break;
   }
 

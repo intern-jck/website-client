@@ -1,0 +1,25 @@
+.Projects {
+  border: 2px solid green;
+  margin: 1vw;
+}
+
+/* .projects-header {
+  border: 2px solid blue;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.projects-list {
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 1%;
+  gap: 1vw;
+}
+

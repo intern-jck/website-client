@@ -3,7 +3,7 @@
         {
             "name": "Glory Stall",
             "group": "Museum of Sex",
-            "grouplinks": "#",
+            "grouplinks": "https://www.superfunland.com/",
             "link": "glory-stall",
             "date": "Dec 2019-Present",
             "short": "An erotic take on Wack-A-Mole",
@@ -31,14 +31,14 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/glory-stall/glory-stall-1.jpg",
-                "/static/media/projects/glory-stall/glory-stall-2.jpg",
-                "/static/media/projects/glory-stall/glory-stall-4.jpg",
-                "/static/media/projects/glory-stall/glory-stall-5.jpg",
-                "/static/media/projects/glory-stall/glory-stall-6.jpg",
-                "/static/media/projects/glory-stall/glory-stall-7.jpg",
-                "/static/media/projects/glory-stall/glory-stall-8.jpg",
-                "/static/media/projects/glory-stall/glory-stall-9.jpg"
+                "./assets/media/projects/glory-stall/glory-stall-1.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-2.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-4.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-5.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-6.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-7.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-8.jpg",
+                "./assets/media/projects/glory-stall/glory-stall-9.jpg"
             ]
         },
         {
@@ -80,14 +80,14 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/lucky-lips/lucky-lips-1.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-2.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-3.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-4.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-5.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-6.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-7.jpg",
-                "/static/media/projects/lucky-lips/lucky-lips-8.jpg"
+                "./assets/media/projects/lucky-lips/lucky-lips-1.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-2.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-3.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-4.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-5.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-6.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-7.jpg",
+                "./assets/media/projects/lucky-lips/lucky-lips-8.jpg"
             ]
         },
         {
@@ -113,29 +113,29 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/vial-dispenser/vial-dispenser-01.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-02.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-03.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-04.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-05.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-06.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-07.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-08.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-09.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-10.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-11.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-12.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-13.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-14.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-15.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-16.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-17.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-18.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-19.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-20.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-21.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-22.jpg",
-                "/static/media/projects/vial-dispenser/vial-dispenser-23.jpg"
+                "./assets/media/projects/vial-dispenser/vial-dispenser-01.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-02.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-03.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-04.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-05.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-06.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-07.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-08.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-09.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-10.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-11.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-12.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-13.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-14.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-15.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-16.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-17.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-18.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-19.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-20.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-21.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-22.jpg",
+                "./assets/media/projects/vial-dispenser/vial-dispenser-23.jpg"
             ]
         },
         {
@@ -165,23 +165,23 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/cc-robot/cc-robot-01.jpg",
-                "/static/media/projects/cc-robot/cc-robot-02.jpg",
-                "/static/media/projects/cc-robot/cc-robot-03.jpg",
-                "/static/media/projects/cc-robot/cc-robot-04.jpg",
-                "/static/media/projects/cc-robot/cc-robot-05.jpg",
-                "/static/media/projects/cc-robot/cc-robot-06.jpg",
-                "/static/media/projects/cc-robot/cc-robot-07.jpg",
-                "/static/media/projects/cc-robot/cc-robot-08.jpg",
-                "/static/media/projects/cc-robot/cc-robot-09.jpg",
-                "/static/media/projects/cc-robot/cc-robot-10.jpg",
-                "/static/media/projects/cc-robot/cc-robot-11.jpg",
-                "/static/media/projects/cc-robot/cc-robot-12.jpg",
-                "/static/media/projects/cc-robot/cc-robot-13.jpg",
-                "/static/media/projects/cc-robot/cc-robot-14.jpg",
-                "/static/media/projects/cc-robot/cc-robot-15.jpg",
-                "/static/media/projects/cc-robot/cc-robot-16.jpg",
-                "/static/media/projects/cc-robot/cc-robot-17.jpg"
+                "./assets/media/projects/cc-robot/cc-robot-01.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-02.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-03.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-04.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-05.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-06.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-07.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-08.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-09.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-10.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-11.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-12.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-13.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-14.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-15.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-16.jpg",
+                "./assets/media/projects/cc-robot/cc-robot-17.jpg"
             ]
         },
         {
@@ -211,14 +211,14 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/open-the-wound/open-the-wound-1.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-2.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-3.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-4.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-5.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-6.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-7.jpg",
-                "/static/media/projects/open-the-wound/open-the-wound-8.jpg"
+                "./assets/media/projects/open-the-wound/open-the-wound-1.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-2.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-3.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-4.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-5.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-6.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-7.jpg",
+                "./assets/media/projects/open-the-wound/open-the-wound-8.jpg"
             ]
         },
         {
@@ -244,27 +244,27 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/moose-goldberg/moose-goldberg-01.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-02.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-03.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-04.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-05.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-06.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-07.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-08.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-09.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-10.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-11.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-12.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-13.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-14.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-15.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-16.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-17.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-18.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-19.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-20.jpg",
-                "/static/media/projects/moose-goldberg/moose-goldberg-21.jpg"
+                "./assets/media/projects/moose-goldberg/moose-goldberg-01.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-02.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-03.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-04.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-05.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-06.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-07.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-08.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-09.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-10.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-11.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-12.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-13.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-14.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-15.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-16.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-17.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-18.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-19.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-20.jpg",
+                "./assets/media/projects/moose-goldberg/moose-goldberg-21.jpg"
             ]
         },
         {
@@ -290,16 +290,16 @@
                 ]
             ],
             "photos": [
-                "/static/media/projects/moncler-genius-tunnel/moncler-01.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-02.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-03.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-04.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-05.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-06.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-07.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-08.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-09.jpg",
-                "/static/media/projects/moncler-genius-tunnel/moncler-10.jpg"
+                "./assets/media/projects/moncler-genius-tunnel/moncler-01.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-02.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-03.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-04.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-05.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-06.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-07.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-08.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-09.jpg",
+                "./assets/media/projects/moncler-genius-tunnel/moncler-10.jpg"
             ]
         }
     ]
