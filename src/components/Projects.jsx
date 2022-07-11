@@ -1,74 +1,81 @@
-import React, {useState, useEffect} from "react";
-import ProjectCarousel from './ProjectCarousel/ProjectCarousel';
-import ProjectCard from './ProjectCard/ProjectCard';
-import ProjectInfo from './ProjectInfo/ProjectInfo';
-import '../styles/Projects.css';
+import React, {useState, useEffect} from 'react';
+import ProjectCard from './ProjectCard/ProjectCard.jsx';
+import ProjectCarousel from './ProjectCarousel/ProjectCarousel.jsx';
+import ProjectInfo from './ProjectInfo/ProjectInfo.jsx';
+import PropTypes from 'prop-types';
+import '../assets/styles/Projects.css';
 
-const Projects = ({projectData, defaultView}) => {
-
+const Projects = ({projectsData}) => {
   const [projects, setProjects] = useState([]);
+  const [project, setProject] = useState(projectsData['glory-stall']);
   const [view, setView] = useState('Project');
-  const [currentProject, setCurrentProject] = useState(projectData['glory-stall']);
 
   useEffect(() => {
-    const projectkeys = Object.keys(projectData);
+    const projectkeys = Object.keys(projectsData);
     setProjects(projectkeys);
-  }, [projectData]);
+  }, [projectsData]);
 
   const showProject = (event) => {
     event.preventDefault();
     const target = event.target;
     const projectName = target.getAttribute('data-project-name');
     console.log(projectName);
-    setView('Project')
-    setCurrentProject(projectData[projectName])
+    setView('Project');
+    setProject(projectsData[projectName]);
   };
 
   const goBack = (event) => {
     event.preventDefault();
     console.log('go back');
-    setView('List')
+    setView('List');
   };
 
   let currentView = <div></div>;
-  switch(view) {
+  switch (view) {
     case 'List':
       currentView =
-        <div className="projects-list">
-        {projects.map((project, i) => {
-          return (
-            <ProjectCard
-            key={i}
-            cardData={projectData[project]}
-            buttonHandler={showProject}/>
-            )
+        <div className='projects-list'>
+          {projects.map((project, i) => {
+            return (
+              <ProjectCard
+                key={i}
+                cardData={projectsData[project]}
+                buttonHandler={showProject}
+              />
+            );
           })}
-        </div>
+        </div>;
       break;
     case 'Project':
       currentView =
-        <div className="projects-single">
-          <ProjectCarousel slides={currentProject.photos}/>
-          <ProjectInfo projectData={currentProject}/>
+        <div className='projects-single'>
+          <ProjectCarousel slides={project.photos}/>
+          <ProjectInfo projectData={project}/>
         </div>;
       break;
   }
 
-  // conditionally render project here?
   return (
-    <div className="projects-div">
+    <div className='projects-div'>
 
-      <div className="projects-header">
-        <h1>Projects</h1>
-        <p>Things I've built, programmed or prototyped.</p>
+      <div className='projects-header'>
+        <h1>{`Projects`}</h1>
+        <p>{`Things I've built, programmed or prototyped.`}</p>
       </div>
 
-      <div className="projects-content">
-        <button hidden={view === 'Project' ? false : true} onClick={goBack}>GO BACK</button>
+      <div className='projects-content'>
+        <button
+          hidden={view === 'Project' ? false : true}
+          onClick={goBack}>{`GO BACK`}
+        </button>
         {currentView}
       </div>
     </div>
-  )
+  );
 };
 
 export default Projects;
+
+Projects.propTypes = {
+  projectsData: PropTypes.func,
+};

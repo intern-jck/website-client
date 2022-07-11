@@ -1,21 +1,20 @@
-import React, {useState, useEffect} from "react";
-import './styles/App.css';
-import Home from './components/Home';
-import Photos from './components/Photos';
-import Projects from './components/Projects';
+import React, {useState} from 'react';
+import './assets/styles/App.css';
+import Home from './components/Home.jsx';
+import Photos from './components/Photos.jsx';
+import Projects from './components/Projects.jsx';
 
 // Local data
-import projects from './json/projects.json';
-import photos from './json/photos.json';
+import projects from './assets/json/projects.json';
+import photos from './assets/json/photos.json';
 
 const App = () => {
-
   const [page, setPage] = useState('Projects');
 
   const pageHandler = (page) => {
     console.log('viewing ', page)
     setPage(page);
-  }
+  };
 
   const clickHandler = (event) => {
     event.preventDefault();
@@ -25,7 +24,7 @@ const App = () => {
 
   let currentPage = <div></div>;
 
-  switch(page) {
+  switch (page) {
     case 'Home':
       currentPage = <Home updatePage={pageHandler}/>;
       break;
@@ -33,22 +32,37 @@ const App = () => {
       currentPage = <Photos photoData={photos}/>;
       break;
     case 'Projects':
-      currentPage = <Projects projectData={projects}/>;
+      currentPage = <Projects projectsData={projects}/>;
       break;
   }
 
   return (
-    <div className="App">
-      <nav className="nav-bar">
-        <div className="nav-menu">
-          <div className="nav-menu-item" onClick={clickHandler} data-name="Home">Home</div>
-          <div className="nav-menu-item" onClick={clickHandler} data-name="Photos">Photos</div>
-          <div className="nav-menu-item" onClick={clickHandler} data-name="Projects">Projects</div>
+    <div className='app-div'>
+      <nav className='nav-bar'>
+        <div className='nav-menu'>
+          <div
+            className='nav-menu-item'
+            onClick={clickHandler}
+            data-name='Home'>
+            Home
+          </div>
+          <div
+            className='nav-menu-item'
+            onClick={clickHandler}
+            data-name='Photos'>
+            Photos
+          </div>
+          <div
+            className='nav-menu-item'
+            onClick={clickHandler}
+            data-name='Projects'>
+            Projects
+          </div>
         </div>
       </nav>
       {currentPage}
     </div>
-  )
+  );
 };
 
 export default App;

@@ -1,15 +1,19 @@
-import React, { useState, useEffect } from "react";
-import { FaChevronRight, FaChevronLeft, FaExpandArrowsAlt } from "react-icons/fa";
-import "./ProjectCarousel.css";
-import "./ProjectCarouselFullscreen.css";
+import React, {useState, useEffect} from 'react';
+import PropTypes from 'prop-types';
+import {
+  FaChevronRight,
+  FaChevronLeft,
+  // FaExpandArrowsAlt,
+} from 'react-icons/fa';
+import './ProjectCarousel.css';
+import './ProjectCarouselFullscreen.css';
 
-const ProjectCarousel = ({ slides, className, baseUrl }) => {
-
+const ProjectCarousel = ({slides}) => {
   const [current, setCurrent] = useState(0);
   const [length, setLength] = useState(0);
   const [images, setImages] = useState([]);
   const [currentImage, setCurrentImage] = useState({});
-  const [fullscreen, setFullscreen] = useState(false);
+  // const [fullscreen, setFullscreen] = useState(false);
 
   useEffect(() => {
     if (slides) {
@@ -27,25 +31,25 @@ const ProjectCarousel = ({ slides, className, baseUrl }) => {
     setCurrent(current === 0 ? 0 : current - 1);
   };
 
-  const updateCurrentImage = (event) => {
-    event.preventDefault();
-    const target = event.target;
-    const name = target.name;
-    setCurrent(name);
-  };
+  // const updateCurrentImage = (event) => {
+  //   event.preventDefault();
+  //   const target = event.target;
+  //   const name = target.name;
+  //   setCurrent(name);
+  // };
 
-  const makeFullscreen = (event) => {
-    event.preventDefault();
-    const target = event.target;
-    const name = event.name;
-    setFullscreen(!fullscreen);
-  };
+  // const makeFullscreen = (event) => {
+  //   event.preventDefault();
+  //   const target = event.target;
+  //   const name = event.name;
+  //   setFullscreen(!fullscreen);
+  // };
 
   return (
     <div className={fullscreen ? `project-carousel-div-fullscreen` : `project-carousel-div`}>
 
       { currentImage ?
-          <div className={fullscreen ? "project-carousel-img-fullscreen" : "project-carousel-img"}>
+          <div className={fullscreen ? 'project-carousel-img-fullscreen' : 'project-carousel-img'}>
             <img
               hidden={false}
               src={currentImage}/>
@@ -53,17 +57,17 @@ const ProjectCarousel = ({ slides, className, baseUrl }) => {
           : null
       }
 
-      <div className="project-carousel-indicators">
+      <div className='project-carousel-indicators'>
         { current > 0 ?
-          <FaChevronLeft className="project-indicator-left-arrow onclick" onClick={prevSlide} size={40}/>
+          <FaChevronLeft className='project-indicator-left-arrow onclick' onClick={prevSlide} size={40}/>
           : null
         }
         { images ? images.map((slide, index) => {
             return (
               <div
                 className={slide.thumbnail_url === currentImage.thumbnail_url ?
-                  "selected-thumbnail carousel-indicator onclick"
-                  : "carousel-indicator onclick"}
+                  'selected-thumbnail carousel-indicator onclick'
+                  : 'carousel-indicator onclick'}
                 key={index}
                 name={index}
                 />
@@ -72,7 +76,7 @@ const ProjectCarousel = ({ slides, className, baseUrl }) => {
           : null
         }
         { current >= 0 && current != length - 1 ?
-          <FaChevronRight className="project-indicator-right-arrow onclick" onClick={nextSlide} size={40}/>
+          <FaChevronRight className='project-indicator-right-arrow onclick' onClick={nextSlide} size={40}/>
           : null
         }
       </div>
@@ -83,3 +87,7 @@ const ProjectCarousel = ({ slides, className, baseUrl }) => {
 };
 
 export default ProjectCarousel;
+
+ProjectCarousel.propTypes = {
+  slides: PropTypes.array,
+};
