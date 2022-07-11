@@ -1,0 +1,90 @@
+.project-carousel-div {
+  border: 4px solid black;
+  position: relative;
+  margin: 5px;
+  width: 40em;
+  height: 40em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.project-carousel-img {
+  border: 2px solid green;
+  margin: auto;
+  /* position: relative; */
+  width: 38em;
+  height: 28em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-carousel-img img{
+  border: 4px solid blue;
+  margin: auto;
+  /* position: relative; */
+  max-width: 36em;
+  max-height: 26em;
+}
+
+.project-carousel-indicators {
+  border: 2px solid green;
+  /* bottom: 10em; */
+  /* width: fit-content; */
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-indicator {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: 4px solid black;
+  /* background-color: black; */
+}
+
+.carousel-indicator:hover {
+  transform: scale(1.2);
+  border: 4px solid green;
+}
+
+.indicator-left-arrow:hover,
+.indicator-right-arrow:hover {
+  transform: scale(1.2);
+  color: green;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  /* .project-card {
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-card-img {
+    width: 18em;
+    margin: auto;
+  }
+
+  .project-card-img img{
+    max-width: 16em;
+    max-height: 16em;
+  }
+
+  .project-card-body {
+    width: 80%;
+    margin: auto;
+  } */
+}

@@ -1,0 +1,21 @@
+.Project {
+  border: 2px solid green;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-header {
+  border: 2px solid blue;
+  margin: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-div {
+  border: 2px solid red;
+}

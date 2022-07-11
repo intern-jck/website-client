@@ -1,0 +1,107 @@
+.card {
+  border: 4px solid black;
+  width: 30em;
+  height: 30em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transition: 250ms;
+  transform: perspective(800px) rotateY(var(--rotate-y, 0));
+}
+
+.card.flip {
+  --rotate-y: 180deg;
+}
+
+.card .front,
+.card .back {
+  position: absolute;
+  /* padding: 1rem; */
+  backface-visibility: hidden;
+}
+
+.card .back {
+  right: 0;
+  transform: rotateY(180deg);
+}
+
+.card-img {
+  border: 2px solid black;
+  width: 25em;
+  height: 20em;
+  /* margin: 1em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img img{
+  border: 4px solid black;
+  object-fit: contain;
+  max-width: 23em;
+  max-height: 18em;
+}
+
+.card-body {
+  border: 2px solid red;
+  width: 25em;
+  height: 8em;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body h2{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: MyFont;
+  /* color: black; */
+  /* font-weight: bold; */
+  margin-top: 0;
+}
+
+.card-body p {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: MyFont;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.project-data {
+  /* font-family: MyFont; */
+  /* font-size: 150%; */
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .Card {
+    width: 20em;
+    height: 30em;
+  }
+
+  .card-img {
+    width: 18em;
+  }
+
+  .card-img img{
+    max-width: 16em;
+    max-height: 16em;
+  }
+
+  .card-body {
+    width: 80%;
+  }
+}
