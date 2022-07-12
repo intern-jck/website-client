@@ -9,7 +9,7 @@ import projects from './data/projects.json';
 import photos from './data/photos.json';
 
 const App = () => {
-  const [page, setPage] = useState('Home');
+  const [page, setPage] = useState('Projects');
 
   const pageHandler = (page) => {
     console.log('viewing ', page)

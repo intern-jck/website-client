@@ -7,13 +7,13 @@ import {
 } from 'react-icons/fa';
 import './ProjectCarousel.css';
 import './ProjectCarouselFullscreen.css';
+const LOCAL_URL = 'http://127.0.0.1:8080/projects/';
 
 const ProjectCarousel = ({slides}) => {
-  // console.log(slides);
   const [current, setCurrent] = useState(0);
   const [length, setLength] = useState(0);
   const [images, setImages] = useState([]);
-  const [currentImage, setCurrentImage] = useState({});
+  const [currentImage, setCurrentImage] = useState('');
   // const [fullscreen, setFullscreen] = useState(false);
 
   useEffect(() => {
@@ -53,7 +53,7 @@ const ProjectCarousel = ({slides}) => {
           <div className='project-carousel-img'>
             <img
               hidden={false}
-              src={`./projects/${currentImage}`}/>
+              src={`${LOCAL_URL}${currentImage}`}/>
           </div> : null
       }
 

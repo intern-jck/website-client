@@ -12,14 +12,15 @@ const ProjectInfo = ({projectData, buttonHandler}) => {
       <div className='project-tech'>
         {projectData.tech.map((tag, i) => {
           return (
-            <a
-              className='project-tech-tag'
-              key={i}
-              href={tag[1]}
-              target='_blank'
-              rel="noreferrer">
-              {tag[0]}
-            </a>
+            <h4 key={i}>
+              <a
+                className='project-tech-tag'
+                href={tag[1]}
+                target='_blank'
+                rel="noreferrer">
+                {tag[0]}
+              </a>
+            </h4>
           );
         },
         )}

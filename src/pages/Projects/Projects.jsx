@@ -31,6 +31,7 @@ const Projects = ({projectsData}) => {
   };
 
   let currentView = <div></div>;
+
   switch (view) {
     case 'List':
       currentView =
@@ -46,6 +47,7 @@ const Projects = ({projectsData}) => {
           })}
         </div>;
       break;
+
     case 'Project':
       currentView =
         <div className='projects-single'>
@@ -68,7 +70,7 @@ const Projects = ({projectsData}) => {
           hidden={view === 'Project' ? false : true}
           onClick={goBack}>{`GO BACK`}
         </button>
-        {currentView}
+        {projectsData ? currentView : null}
       </div>
     </div>
   );
