@@ -48,7 +48,7 @@ const ProjectCard = ({cardData, buttonHandler}) => {
               {cardData.date}
             </span>
           </div>
-          <div className='project-data'>
+          <div className='project-data project-tech-tags'>
             {`TECH:`}
             <span>
               {cardData.tech.map((tech, i) =>(<div key={i}>{tech[0]}</div>))}
