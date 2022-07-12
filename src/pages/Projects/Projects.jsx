@@ -8,7 +8,7 @@ import './Projects.css';
 const Projects = ({projectsData}) => {
   const [projects, setProjects] = useState([]);
   const [project, setProject] = useState(projectsData['glory-stall']);
-  const [view, setView] = useState('Project');
+  const [view, setView] = useState('List');
 
   useEffect(() => {
     const projectkeys = Object.keys(projectsData);
@@ -58,7 +58,7 @@ const Projects = ({projectsData}) => {
   }
 
   return (
-    <div className='projects-div'>
+    <div className='Projects'>
 
       <div className='projects-header'>
         <h1>{`Projects`}</h1>
@@ -66,11 +66,12 @@ const Projects = ({projectsData}) => {
       </div>
 
       <div className='projects-content'>
+        {projectsData ? currentView : null}
         <button
           hidden={view === 'Project' ? false : true}
-          onClick={goBack}>{`GO BACK`}
+          onClick={goBack}>
+          {`GO BACK`}
         </button>
-        {projectsData ? currentView : null}
       </div>
     </div>
   );

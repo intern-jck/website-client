@@ -1,11 +1,4 @@
 /* For page wide styling only */
-/* @font-face {
-  font-family: 'MyFont';
-  src: url('../impactlabel.ttf') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-} */
-
 body {
   font-family: monospace;
   font-size: 100%;

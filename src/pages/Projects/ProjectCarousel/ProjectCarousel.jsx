@@ -47,7 +47,7 @@ const ProjectCarousel = ({slides}) => {
   // };
 
   return (
-    <div className='project-carousel-div'>
+    <div className='ProjectCarousel'>
 
       { currentImage ?
           <div className='project-carousel-img'>
@@ -68,7 +68,7 @@ const ProjectCarousel = ({slides}) => {
           images.map((slide, i) => {
             return (
               <div
-                className= 'carousel-indicator onclick'
+                className='carousel-indicator onclick'
                 key={i}
               />
             );

@@ -5,22 +5,23 @@ import './ProjectInfo.css';
 // rename component to ProjectData?
 const ProjectInfo = ({projectData, buttonHandler}) => {
   return (
-    <div className='project-data'>
-      <h2 className='project-name'>{projectData.name}</h2>
-      <h3 className='project-date'>{projectData.date}</h3>
-      <h3 className='project-group'>{projectData.group}</h3>
+    <div className='ProjectInfo'>
+      <div className='project-header'>
+        <h2 className='project-name'>{projectData.name}</h2>
+        <h3 className='project-date'>{projectData.date}</h3>
+        <h3 className='project-group'>{projectData.group}</h3>
+      </div>
       <div className='project-tech'>
         {projectData.tech.map((tag, i) => {
           return (
-            <h4 key={i}>
-              <a
-                className='project-tech-tag'
-                href={tag[1]}
-                target='_blank'
-                rel="noreferrer">
-                {tag[0]}
-              </a>
-            </h4>
+            <a
+              key={i}
+              className='project-tech-tag'
+              href={tag[1]}
+              target='_blank'
+              rel="noreferrer">
+              {tag[0]}
+            </a>
           );
         },
         )}

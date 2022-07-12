@@ -1,5 +1,13 @@
-.project-card {
+.ProjectCard {
   border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-body {
+  border: 2px solid blue;
   width: 30em;
   height: 30em;
   margin: 1em;
@@ -18,73 +26,69 @@
   transform: perspective(800px) rotateY(var(--rotate-y, 0));
 }
 
-.project-card.flip {
+.project-body.flip {
   --rotate-y: 180deg;
 }
 
-.project-card .front,
-.project-card .back {
+.project-body .front,
+.project-body .back {
   position: absolute;
   backface-visibility: hidden;
+  height: 30em;
 }
 
-.project-card .back {
+.project-body .back {
   right: 0;
   transform: rotateY(180deg);
 }
 
-.project-card-img {
-  border: 2px solid blue;
+.project-img {
+  border: 2px solid green;
   width: 25em;
   height: 20em;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.project-card-img img{
+.project-img img{
   border: 4px solid black;
+  padding: 2px;
   object-fit: contain;
   max-width: 23em;
   max-height: 18em;
 }
 
-.project-card-body {
-  border: 2px solid blue;
-  width: 25em;
-  height: 8em;
+.project-name {
+  border: 2px solid green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.project-short {
+  border: 2px solid red;
+  text-align: center;
+  font-size: 120%;
+}
+
+.project-data {
+  border: 2px solid red;
+  font-size: 150%;
+  font-weight: bold;
   text-align: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
 }
 
-.project-card-body h2{
-  font-family: 'Courier New', Courier, monospace;
-  /* font-family: MyFont; */
-  color: black;
-  font-weight: bold;
-  margin-top: 0;
-}
-
-.project-card-body p {
-  font-family: 'Courier New', Courier, monospace;
-  /* font-family: MyFont; */
-  margin: 0;
-  margin-bottom: 10px;
-}
-
-.project-card-data {
-  font-family: 'Courier New', Courier, monospace;
-  /* font-family: MyFont; */
-  font-size: 120%;
+.project-data span {
+  margin: 1em auto;
+  font-family: monospace;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  .project-card {
+  .project-body {
     width: 20em;
     height: 30em;
     display: flex;
@@ -93,17 +97,17 @@
     align-items: center;
   }
 
-  .project-card-img {
+  .project-img {
     width: 18em;
     margin: auto;
   }
 
-  .project-card-img img{
+  .project-img img{
     max-width: 16em;
     max-height: 16em;
   }
 
-  .project-card-body {
+  .project-header {
     width: 80%;
     margin: auto;
   }

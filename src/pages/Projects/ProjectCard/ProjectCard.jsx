@@ -17,48 +17,53 @@ const ProjectCard = ({cardData, buttonHandler}) => {
   };
 
   return (
-    <div>
-      <div className={`project-card ${flip ? 'flip' : ''}`} onClick={flipCard}>
+    <div className="ProjectCard">
+
+      <div className={`project-body ${flip ? 'flip' : ''}`} onClick={flipCard}>
+
         <div className='front'>
-          <div className='project-card-img'>
+          <div className='project-img'>
             <img src={`${LOCAL_URL}${cardData.photos[0]}`}/>
           </div>
-          <div className='project-card-body'>
-            <h2>{cardData.name}</h2>
-            <p>{cardData.short}</p>
-          </div>
+          <h2 className='project-name'>{cardData.name}</h2>
+          <p className='project-short'>{cardData.short}</p>
         </div>
+
         <div className='back'>
-          <h4>
+          <div className='project-data'>
             {`NAME: `}
-            <span className='project-card-data'>
+            <span>
               {cardData.name}
             </span>
-          </h4>
-          <h4>
-            {`>FOR: `}
-            <span className='project-card-data'>
+          </div>
+          <div className='project-data'>
+            {`FOR: `}
+            <span>
               {cardData.group}
             </span>
-          </h4>
-          <h4>
+          </div>
+          <div className='project-data'>
             {`DATE: `}
-            <span className='project-card-data'>
+            <span>
               {cardData.date}
             </span>
-          </h4>
-          <h4>{`TECH:`}
-            <span className='project-card-data'>
-              {cardData.tech.map((tech, i) =>(<h5 key={i}>{tech[0]}</h5>))}
+          </div>
+          <div className='project-data'>
+            {`TECH:`}
+            <span>
+              {cardData.tech.map((tech, i) =>(<div key={i}>{tech[0]}</div>))}
             </span>
-          </h4>
+          </div>
         </div>
+
       </div>
+
       <button
         data-project-name={cardData.link}
         onClick={showProject}>
         {`READ MORE`}
       </button>
+
     </div>
   );
 };
