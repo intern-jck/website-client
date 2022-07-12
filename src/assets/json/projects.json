@@ -30,14 +30,14 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/glory-stall/glory-stall-1.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-2.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-4.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-5.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-6.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-7.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-8.jpg",
-            "./assets/media/projects/glory-stall/glory-stall-9.jpg"
+            "glory-stall/glory-stall-1.jpg",
+            "glory-stall/glory-stall-2.jpg",
+            "glory-stall/glory-stall-4.jpg",
+            "glory-stall/glory-stall-5.jpg",
+            "glory-stall/glory-stall-6.jpg",
+            "glory-stall/glory-stall-7.jpg",
+            "glory-stall/glory-stall-8.jpg",
+            "glory-stall/glory-stall-9.jpg"
         ]
     },
     "lucky-lips": {
@@ -79,14 +79,14 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/lucky-lips/lucky-lips-1.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-2.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-3.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-4.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-5.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-6.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-7.jpg",
-            "./assets/media/projects/lucky-lips/lucky-lips-8.jpg"
+            "lucky-lips/lucky-lips-1.jpg",
+            "lucky-lips/lucky-lips-2.jpg",
+            "lucky-lips/lucky-lips-3.jpg",
+            "lucky-lips/lucky-lips-4.jpg",
+            "lucky-lips/lucky-lips-5.jpg",
+            "lucky-lips/lucky-lips-6.jpg",
+            "lucky-lips/lucky-lips-7.jpg",
+            "lucky-lips/lucky-lips-8.jpg"
         ]
     },
     "vial-dispenser": {
@@ -112,29 +112,29 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/vial-dispenser/vial-dispenser-01.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-02.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-03.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-04.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-05.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-06.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-07.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-08.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-09.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-10.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-11.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-12.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-13.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-14.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-15.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-16.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-17.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-18.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-19.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-20.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-21.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-22.jpg",
-            "./assets/media/projects/vial-dispenser/vial-dispenser-23.jpg"
+            "vial-dispenser/vial-dispenser-01.jpg",
+            "vial-dispenser/vial-dispenser-02.jpg",
+            "vial-dispenser/vial-dispenser-03.jpg",
+            "vial-dispenser/vial-dispenser-04.jpg",
+            "vial-dispenser/vial-dispenser-05.jpg",
+            "vial-dispenser/vial-dispenser-06.jpg",
+            "vial-dispenser/vial-dispenser-07.jpg",
+            "vial-dispenser/vial-dispenser-08.jpg",
+            "vial-dispenser/vial-dispenser-09.jpg",
+            "vial-dispenser/vial-dispenser-10.jpg",
+            "vial-dispenser/vial-dispenser-11.jpg",
+            "vial-dispenser/vial-dispenser-12.jpg",
+            "vial-dispenser/vial-dispenser-13.jpg",
+            "vial-dispenser/vial-dispenser-14.jpg",
+            "vial-dispenser/vial-dispenser-15.jpg",
+            "vial-dispenser/vial-dispenser-16.jpg",
+            "vial-dispenser/vial-dispenser-17.jpg",
+            "vial-dispenser/vial-dispenser-18.jpg",
+            "vial-dispenser/vial-dispenser-19.jpg",
+            "vial-dispenser/vial-dispenser-20.jpg",
+            "vial-dispenser/vial-dispenser-21.jpg",
+            "vial-dispenser/vial-dispenser-22.jpg",
+            "vial-dispenser/vial-dispenser-23.jpg"
         ]
     },
     "cc-robot": {
@@ -164,23 +164,23 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/cc-robot/cc-robot-01.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-02.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-03.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-04.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-05.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-06.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-07.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-08.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-09.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-10.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-11.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-12.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-13.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-14.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-15.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-16.jpg",
-            "./assets/media/projects/cc-robot/cc-robot-17.jpg"
+            "cc-robot/cc-robot-01.jpg",
+            "cc-robot/cc-robot-02.jpg",
+            "cc-robot/cc-robot-03.jpg",
+            "cc-robot/cc-robot-04.jpg",
+            "cc-robot/cc-robot-05.jpg",
+            "cc-robot/cc-robot-06.jpg",
+            "cc-robot/cc-robot-07.jpg",
+            "cc-robot/cc-robot-08.jpg",
+            "cc-robot/cc-robot-09.jpg",
+            "cc-robot/cc-robot-10.jpg",
+            "cc-robot/cc-robot-11.jpg",
+            "cc-robot/cc-robot-12.jpg",
+            "cc-robot/cc-robot-13.jpg",
+            "cc-robot/cc-robot-14.jpg",
+            "cc-robot/cc-robot-15.jpg",
+            "cc-robot/cc-robot-16.jpg",
+            "cc-robot/cc-robot-17.jpg"
         ]
     },
     "open-the-wound": {
@@ -210,14 +210,14 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/open-the-wound/open-the-wound-1.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-2.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-3.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-4.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-5.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-6.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-7.jpg",
-            "./assets/media/projects/open-the-wound/open-the-wound-8.jpg"
+            "open-the-wound/open-the-wound-1.jpg",
+            "open-the-wound/open-the-wound-2.jpg",
+            "open-the-wound/open-the-wound-3.jpg",
+            "open-the-wound/open-the-wound-4.jpg",
+            "open-the-wound/open-the-wound-5.jpg",
+            "open-the-wound/open-the-wound-6.jpg",
+            "open-the-wound/open-the-wound-7.jpg",
+            "open-the-wound/open-the-wound-8.jpg"
         ]
     },
     "moose-goldberg": {
@@ -243,27 +243,27 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/moose-goldberg/moose-goldberg-01.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-02.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-03.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-04.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-05.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-06.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-07.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-08.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-09.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-10.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-11.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-12.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-13.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-14.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-15.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-16.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-17.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-18.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-19.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-20.jpg",
-            "./assets/media/projects/moose-goldberg/moose-goldberg-21.jpg"
+            "moose-goldberg/moose-goldberg-01.jpg",
+            "moose-goldberg/moose-goldberg-02.jpg",
+            "moose-goldberg/moose-goldberg-03.jpg",
+            "moose-goldberg/moose-goldberg-04.jpg",
+            "moose-goldberg/moose-goldberg-05.jpg",
+            "moose-goldberg/moose-goldberg-06.jpg",
+            "moose-goldberg/moose-goldberg-07.jpg",
+            "moose-goldberg/moose-goldberg-08.jpg",
+            "moose-goldberg/moose-goldberg-09.jpg",
+            "moose-goldberg/moose-goldberg-10.jpg",
+            "moose-goldberg/moose-goldberg-11.jpg",
+            "moose-goldberg/moose-goldberg-12.jpg",
+            "moose-goldberg/moose-goldberg-13.jpg",
+            "moose-goldberg/moose-goldberg-14.jpg",
+            "moose-goldberg/moose-goldberg-15.jpg",
+            "moose-goldberg/moose-goldberg-16.jpg",
+            "moose-goldberg/moose-goldberg-17.jpg",
+            "moose-goldberg/moose-goldberg-18.jpg",
+            "moose-goldberg/moose-goldberg-19.jpg",
+            "moose-goldberg/moose-goldberg-20.jpg",
+            "moose-goldberg/moose-goldberg-21.jpg"
         ]
     },
     "moncler-genius-tunnel": {
@@ -289,16 +289,16 @@
             ]
         ],
         "photos": [
-            "./assets/media/projects/moncler-genius-tunnel/moncler-01.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-02.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-03.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-04.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-05.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-06.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-07.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-08.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-09.jpg",
-            "./assets/media/projects/moncler-genius-tunnel/moncler-10.jpg"
+            "moncler-genius-tunnel/moncler-01.jpg",
+            "moncler-genius-tunnel/moncler-02.jpg",
+            "moncler-genius-tunnel/moncler-03.jpg",
+            "moncler-genius-tunnel/moncler-04.jpg",
+            "moncler-genius-tunnel/moncler-05.jpg",
+            "moncler-genius-tunnel/moncler-06.jpg",
+            "moncler-genius-tunnel/moncler-07.jpg",
+            "moncler-genius-tunnel/moncler-08.jpg",
+            "moncler-genius-tunnel/moncler-09.jpg",
+            "moncler-genius-tunnel/moncler-10.jpg"
         ]
     }
 }

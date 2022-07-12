@@ -77,5 +77,5 @@ const Projects = ({projectsData}) => {
 export default Projects;
 
 Projects.propTypes = {
-  projectsData: PropTypes.func,
+  projectsData: PropTypes.object,
 };

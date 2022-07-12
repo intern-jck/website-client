@@ -9,6 +9,7 @@ import './ProjectCarousel.css';
 import './ProjectCarouselFullscreen.css';
 
 const ProjectCarousel = ({slides}) => {
+  // console.log(slides);
   const [current, setCurrent] = useState(0);
   const [length, setLength] = useState(0);
   const [images, setImages] = useState([]);
@@ -46,44 +47,43 @@ const ProjectCarousel = ({slides}) => {
   // };
 
   return (
-    <div className={fullscreen ? `project-carousel-div-fullscreen` : `project-carousel-div`}>
+    <div className='project-carousel-div'>
 
       { currentImage ?
-          <div className={fullscreen ? 'project-carousel-img-fullscreen' : 'project-carousel-img'}>
+          <div className='project-carousel-img'>
             <img
               hidden={false}
-              src={currentImage}/>
-          </div>
-          : null
+              src={`./projects/${currentImage}`}/>
+          </div> : null
       }
 
       <div className='project-carousel-indicators'>
         { current > 0 ?
-          <FaChevronLeft className='project-indicator-left-arrow onclick' onClick={prevSlide} size={40}/>
-          : null
+          <FaChevronLeft
+            className='project-indicator-left-arrow onclick'
+            onClick={prevSlide}
+            size={40}/> : null
         }
-        { images ? images.map((slide, index) => {
+        { images ?
+          images.map((slide, i) => {
             return (
               <div
-                className={slide.thumbnail_url === currentImage.thumbnail_url ?
-                  'selected-thumbnail carousel-indicator onclick'
-                  : 'carousel-indicator onclick'}
-                key={index}
-                name={index}
-                />
-              )
-            })
-          : null
+                className= 'carousel-indicator onclick'
+                key={i}
+              />
+            );
+          }) : null
         }
         { current >= 0 && current != length - 1 ?
-          <FaChevronRight className='project-indicator-right-arrow onclick' onClick={nextSlide} size={40}/>
-          : null
+          <FaChevronRight
+            className='project-indicator-right-arrow onclick'
+            onClick={nextSlide}
+            size={40}/> : null
         }
       </div>
 
     </div>
   );
-
 };
 
 export default ProjectCarousel;
