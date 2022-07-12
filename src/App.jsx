@@ -9,7 +9,7 @@ import projects from './data/projects.json';
 import photos from './data/photos.json';
 
 const App = () => {
-  const [page, setPage] = useState('Projects');
+  const [page, setPage] = useState('Home');
 
   const pageHandler = (page) => {
     console.log('viewing ', page)
@@ -37,26 +37,26 @@ const App = () => {
   }
 
   return (
-    <div className='app-div'>
+    <div className='App'>
       <nav className='nav-bar'>
         <div className='nav-menu'>
           <div
             className='nav-menu-item'
             onClick={clickHandler}
             data-name='Home'>
-            Home
+            {`Home`}
           </div>
           <div
             className='nav-menu-item'
             onClick={clickHandler}
             data-name='Photos'>
-            Photos
+            {`Photos`}
           </div>
           <div
             className='nav-menu-item'
             onClick={clickHandler}
             data-name='Projects'>
-            Projects
+            {`Projects`}
           </div>
         </div>
       </nav>

@@ -13,8 +13,8 @@ const Home = ({updatePage}) => {
   };
 
   return (
-    <div className='home-div'>
-      <h1 className='home-header'>Home</h1>
+    <div className='Home'>
+      {/* <h1 className='home-header'>Home</h1> */}
       <div className='home-content'>
         <div className='home-item'>
           <h3>Photos</h3>
