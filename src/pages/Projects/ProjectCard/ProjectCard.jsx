@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import './ProjectCard.css';
+const LOCAL_URL = 'http://127.0.0.1:8080/projects/';
 
 const ProjectCard = ({cardData, buttonHandler}) => {
   const [flip, setFlip] = useState(false);
@@ -20,7 +21,7 @@ const ProjectCard = ({cardData, buttonHandler}) => {
       <div className={`project-card ${flip ? 'flip' : ''}`} onClick={flipCard}>
         <div className='front'>
           <div className='project-card-img'>
-            <img src={cardData.photos[0]}/>
+            <img src={`${LOCAL_URL}${cardData.photos[0]}`}/>
           </div>
           <div className='project-card-body'>
             <h2>{cardData.name}</h2>

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import PropTypes from 'prop-types';
 import Photo from './Photo/Photo.jsx';
-import '../assets/styles/Photos.css';
+import './Photos.css';
 
 const Photos = ({photoData}) => {
   const [photos, setPhotos] = useState([]);

@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../assets/styles/Home.css';
+import './Home.css';
 
-import photosImg from '../assets/media/photos-photo.jpg';
-import projectsImg from '../assets/media/projects-photo.jpg';
+import photosImg from './photos-photo.jpg';
+import projectsImg from './projects-photo.jpg';
 
 const Home = ({updatePage}) => {
   const clickHandler = (event) => {

@@ -3,7 +3,7 @@ import ProjectCard from './ProjectCard/ProjectCard.jsx';
 import ProjectCarousel from './ProjectCarousel/ProjectCarousel.jsx';
 import ProjectInfo from './ProjectInfo/ProjectInfo.jsx';
 import PropTypes from 'prop-types';
-import '../assets/styles/Projects.css';
+import './Projects.css';
 
 const Projects = ({projectsData}) => {
   const [projects, setProjects] = useState([]);

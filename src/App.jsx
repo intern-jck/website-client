@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
-import './assets/styles/App.css';
-import Home from './components/Home.jsx';
-import Photos from './components/Photos.jsx';
-import Projects from './components/Projects.jsx';
+import './App.css';
+import Home from './pages/Home/Home.jsx';
+import Photos from './pages/Photos/Photos.jsx';
+import Projects from './pages/Projects/Projects.jsx';
 
 // Local data
-import projects from './assets/json/projects.json';
-import photos from './assets/json/photos.json';
+import projects from './data/projects.json';
+import photos from './data/photos.json';
 
 const App = () => {
   const [page, setPage] = useState('Projects');
@@ -20,7 +20,7 @@ const App = () => {
     event.preventDefault();
     const name = event.target.getAttribute('data-name');
     pageHandler(name);
-  }
+  };
 
   let currentPage = <div></div>;
 
